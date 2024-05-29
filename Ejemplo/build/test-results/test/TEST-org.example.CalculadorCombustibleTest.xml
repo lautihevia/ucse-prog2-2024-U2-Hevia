@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.CalculadorCombustibleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-29T02:40:37" hostname="LAUTARO" time="1.239">
+  <properties/>
+  <testcase name="testGetInstance_singleton()" classname="org.example.CalculadorCombustibleTest" time="0.005"/>
+  <testcase name="testGetInstance_notNull()" classname="org.example.CalculadorCombustibleTest" time="0.003"/>
+  <testcase name="calcularCombustible()" classname="org.example.CalculadorCombustibleTest" time="1.229"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

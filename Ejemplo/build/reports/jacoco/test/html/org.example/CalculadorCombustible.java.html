@@ -5,14 +5,14 @@ public class CalculadorCombustible {
     private CalculadorCombustible() {}
 
     public static CalculadorCombustible getInstance() {
-<span class="nc bnc" id="L8" title="All 2 branches missed.">        if (instance == null) {</span>
-<span class="nc" id="L9">            instance = new CalculadorCombustible();</span>
+<span class="fc bfc" id="L8" title="All 2 branches covered.">        if (instance == null) {</span>
+<span class="fc" id="L9">            instance = new CalculadorCombustible();</span>
         }
-<span class="nc" id="L11">        return instance;</span>
+<span class="fc" id="L11">        return instance;</span>
     }
 
     public int calcularCombustible(Avion avion, int distancia) {
-<span class="nc" id="L15">        return avion.volar(distancia);</span>
+<span class="fc" id="L15">        return avion.volar(distancia);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

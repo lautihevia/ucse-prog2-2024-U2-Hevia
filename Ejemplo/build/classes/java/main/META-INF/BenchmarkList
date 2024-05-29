@@ -1,0 +1,2 @@
+JMH S 27 org.example.StreamBenchmark S 73 org.example.jmh_generated.StreamBenchmark_benchmarkParallelStream_jmhTest S 23 benchmarkParallelStream S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 27 org.example.StreamBenchmark S 65 org.example.jmh_generated.StreamBenchmark_benchmarkStream_jmhTest S 15 benchmarkStream S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
