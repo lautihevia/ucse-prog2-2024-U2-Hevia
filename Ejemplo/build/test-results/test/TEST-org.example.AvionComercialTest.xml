@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.AvionComercialTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-29T02:40:36" hostname="LAUTARO" time="0.074">
+<testsuite name="org.example.AvionComercialTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-31T05:25:33" hostname="LAUTARO" time="0.081">
   <properties/>
-  <testcase name="VolarConDistancia50YConsumo2CalculaCombustible()" classname="org.example.AvionComercialTest" time="0.074"/>
+  <testcase name="VolarConDistancia50YConsumo2CalculaCombustible()" classname="org.example.AvionComercialTest" time="0.081"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

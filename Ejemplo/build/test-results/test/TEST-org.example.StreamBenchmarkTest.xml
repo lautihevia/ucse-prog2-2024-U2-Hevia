@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.StreamBenchmarkTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-29T02:40:38" hostname="LAUTARO" time="1.89">
+<testsuite name="org.example.StreamBenchmarkTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-31T05:25:35" hostname="LAUTARO" time="2.03">
   <properties/>
-  <testcase name="benchmarkParallelStream()" classname="org.example.StreamBenchmarkTest" time="0.951"/>
-  <testcase name="benchmarkStream()" classname="org.example.StreamBenchmarkTest" time="0.937"/>
+  <testcase name="benchmarkParallelStream()" classname="org.example.StreamBenchmarkTest" time="1.146"/>
+  <testcase name="benchmarkStream()" classname="org.example.StreamBenchmarkTest" time="0.882"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
