@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="576a7cf4-ef43-4b3b-b2f5-c0168668646b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplo/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example.jmh_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example.jmh_generated/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example.jmh_generated/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example.jmh_generated/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/index.source.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +48,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AvionComercialTest.executor": "Run",
-    "Gradle.AvionPrivadoTest.executor": "Run",
-    "Gradle.AvionTest.executor": "Run",
-    "Gradle.CalculadorCombustibleTest.executor": "Run",
-    "Gradle.Ejemplo [:Ejercicio3.main()].executor": "Run",
-    "Gradle.Ejemplo [:Ejercicio4.main()].executor": "Run",
-    "Gradle.MainTest.executor": "Run",
-    "Gradle.StreamBenchmarkTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lauger/Desktop/ucse-prog2-2023-U2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AvionComercialTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AvionPrivadoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AvionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculadorCombustibleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ejemplo [:Ejercicio3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Ejemplo [:Ejercicio4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StreamBenchmarkTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lauger/Desktop/ucse-prog2-2023-U2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -114,7 +107,8 @@
       <workItem from="1716856404312" duration="3623000" />
       <workItem from="1716943225035" duration="4924000" />
       <workItem from="1717019160072" duration="776000" />
-      <workItem from="1717120133678" duration="5822000" />
+      <workItem from="1717120133678" duration="5868000" />
+      <workItem from="1717137105935" duration="199000" />
     </task>
     <servers />
   </component>
