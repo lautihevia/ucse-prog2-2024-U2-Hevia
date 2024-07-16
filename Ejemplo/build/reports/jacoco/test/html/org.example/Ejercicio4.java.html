@@ -3,41 +3,37 @@
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ThreadLocalRandom;
 
-<span class="nc" id="L6">public class Ejercicio4 {</span>
-    public static void main(String[] args) throws Exception {
+<span class="fc" id="L6">public class Ejercicio4 {</span>
+    public void runFinalizarPrimeraTarea() throws Exception {
         // Crear 4 CompletableFuture
-<span class="nc" id="L9">        CompletableFuture&lt;Integer&gt; future1 = createRandomDelayFuture();</span>
-<span class="nc" id="L10">        CompletableFuture&lt;Integer&gt; future2 = createRandomDelayFuture();</span>
-<span class="nc" id="L11">        CompletableFuture&lt;Integer&gt; future3 = createRandomDelayFuture();</span>
-<span class="nc" id="L12">        CompletableFuture&lt;Integer&gt; future4 = createRandomDelayFuture();</span>
+<span class="fc" id="L9">        CompletableFuture&lt;Integer&gt; future1 = createRandomDelayFuture();</span>
+<span class="fc" id="L10">        CompletableFuture&lt;Integer&gt; future2 = createRandomDelayFuture();</span>
+<span class="fc" id="L11">        CompletableFuture&lt;Integer&gt; future3 = createRandomDelayFuture();</span>
+<span class="fc" id="L12">        CompletableFuture&lt;Integer&gt; future4 = createRandomDelayFuture();</span>
 
         // Esperar a que cualquier tarea se complete
-<span class="nc" id="L15">        CompletableFuture&lt;Object&gt; anyFuture = CompletableFuture.anyOf(future1, future2, future3, future4);</span>
+<span class="fc" id="L15">        CompletableFuture&lt;Object&gt; anyFuture = CompletableFuture.anyOf(future1, future2, future3, future4);</span>
 
         // Cuando cualquier tarea se complete, imprimir el resultado
-<span class="nc" id="L18">        anyFuture.thenAccept(v -&gt; {</span>
-            try {
-<span class="nc" id="L20">                System.out.println(&quot;El valor del primer futuro completado es: &quot; + v);</span>
-<span class="nc" id="L21">            } catch (Exception e) {</span>
-<span class="nc" id="L22">                e.printStackTrace();</span>
-<span class="nc" id="L23">            }</span>
-<span class="nc" id="L24">        });</span>
+<span class="fc" id="L18">        anyFuture.thenAccept(v -&gt; {</span>
+<span class="fc" id="L19">                System.out.println(&quot;El valor del primer futuro completado es: &quot; + v);</span>
+<span class="fc" id="L20">        });</span>
 
         // Esperar a que se complete la tarea final
-<span class="nc" id="L27">        anyFuture.join();</span>
-<span class="nc" id="L28">    }</span>
+<span class="fc" id="L23">        anyFuture.join();</span>
+<span class="fc" id="L24">    }</span>
 
     private static CompletableFuture&lt;Integer&gt; createRandomDelayFuture() {
-<span class="nc" id="L31">        return CompletableFuture.supplyAsync(() -&gt; {</span>
+<span class="fc" id="L27">        return CompletableFuture.supplyAsync(() -&gt; {</span>
             try {
-<span class="nc" id="L33">                int delay = ThreadLocalRandom.current().nextInt(100, 501);</span>
-<span class="nc" id="L34">                String threadName = Thread.currentThread().getName();</span>
-<span class="nc" id="L35">                System.out.println(&quot;Hilo &quot; + threadName + &quot; iniciado con un retraso de &quot; + delay + &quot; milisegundos.&quot;);</span>
-<span class="nc" id="L36">                Thread.sleep(delay);</span>
-<span class="nc" id="L37">                System.out.println(&quot;Hilo &quot; + threadName + &quot; terminado después de &quot; + delay + &quot; milisegundos.&quot;);</span>
-<span class="nc" id="L38">                return delay;</span>
-<span class="nc" id="L39">            } catch (InterruptedException e) {</span>
-<span class="nc" id="L40">                throw new RuntimeException(e);</span>
+<span class="fc" id="L29">                int delay = ThreadLocalRandom.current().nextInt(100, 501);</span>
+<span class="fc" id="L30">                String threadName = Thread.currentThread().getName();</span>
+<span class="fc" id="L31">                System.out.println(&quot;Hilo &quot; + threadName + &quot; iniciado con un retraso de &quot; + delay + &quot; milisegundos.&quot;);</span>
+<span class="fc" id="L32">                Thread.sleep(delay);</span>
+<span class="fc" id="L33">                System.out.println(&quot;Hilo &quot; + threadName + &quot; terminado después de &quot; + delay + &quot; milisegundos.&quot;);</span>
+<span class="fc" id="L34">                return delay;</span>
+<span class="nc" id="L35">            } catch (InterruptedException e) {</span>
+<span class="nc" id="L36">                throw new RuntimeException(e);</span>
             }
         });
     }

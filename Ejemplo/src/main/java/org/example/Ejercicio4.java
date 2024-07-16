@@ -4,7 +4,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Ejercicio4 {
-    public static void main(String[] args) throws Exception {
+    public void runFinalizarPrimeraTarea() throws Exception {
         // Crear 4 CompletableFuture
         CompletableFuture<Integer> future1 = createRandomDelayFuture();
         CompletableFuture<Integer> future2 = createRandomDelayFuture();
@@ -16,11 +16,7 @@ public class Ejercicio4 {
 
         // Cuando cualquier tarea se complete, imprimir el resultado
         anyFuture.thenAccept(v -> {
-            try {
                 System.out.println("El valor del primer futuro completado es: " + v);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
         });
 
         // Esperar a que se complete la tarea final

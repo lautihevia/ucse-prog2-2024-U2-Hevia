@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.AvionPrivadoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-31T05:25:33" hostname="LAUTARO" time="0.004">
+<testsuite name="org.example.AvionPrivadoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-01T00:15:39" hostname="LAUTARO" time="0.004">
   <properties/>
   <testcase name="testVolarConDistancia50YConsumo2CalculaCombustibleNecesario125()" classname="org.example.AvionPrivadoTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>

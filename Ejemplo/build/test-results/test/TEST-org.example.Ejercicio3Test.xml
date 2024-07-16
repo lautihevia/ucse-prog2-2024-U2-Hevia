@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.Ejercicio3Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-06-01T00:15:40" hostname="LAUTARO" time="1.082">
+  <properties/>
+  <testcase name="runFinalizar4Tareas()" classname="org.example.Ejercicio3Test" time="0.54"/>
+  <testcase name="testCreateRandomDelayFuture()" classname="org.example.Ejercicio3Test" time="0.539"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

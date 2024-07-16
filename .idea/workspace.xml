@@ -6,6 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="576a7cf4-ef43-4b3b-b2f5-c0168668646b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/jacoco/test.exec" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/jacoco/test.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/Ejercicio3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/Ejercicio3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/Ejercicio3.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/Ejercicio3.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/Ejercicio4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/Ejercicio4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/Ejercicio4.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/Ejercicio4.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/html/org.example/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/jacocoTestReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/jacoco/test/jacocoTestReport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.AvionComercialTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.AvionComercialTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.AvionPrivadoTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.AvionPrivadoTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.AvionTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.AvionTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.CalculadorCombustibleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.CalculadorCombustibleTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.MainTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.MainTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.StreamBenchmarkTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/classes/org.example.StreamBenchmarkTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/packages/org.example.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/reports/tests/test/packages/org.example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.AvionComercialTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.AvionComercialTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.AvionPrivadoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.AvionPrivadoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.AvionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.AvionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.CalculadorCombustibleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.CalculadorCombustibleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.MainTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.MainTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.StreamBenchmarkTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/test-results/test/TEST-org.example.StreamBenchmarkTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/src/main/java/org/example/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/src/main/java/org/example/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejemplo/src/main/java/org/example/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejemplo/src/main/java/org/example/Ejercicio4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,35 +78,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.AvionComercialTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AvionPrivadoTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AvionTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CalculadorCombustibleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Ejemplo [:Ejercicio3.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Ejemplo [:Ejercicio4.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.StreamBenchmarkTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lauger/Desktop/ucse-prog2-2023-U2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AvionComercialTest.executor": "Run",
+    "Gradle.AvionPrivadoTest.executor": "Run",
+    "Gradle.AvionTest.executor": "Run",
+    "Gradle.CalculadorCombustibleTest.executor": "Run",
+    "Gradle.Ejemplo [:Ejercicio3.main()].executor": "Run",
+    "Gradle.Ejemplo [:Ejercicio4.main()].executor": "Run",
+    "Gradle.Ejercicio3Test.executor": "Run",
+    "Gradle.Ejercicio4Test.executor": "Run",
+    "Gradle.MainTest.executor": "Run",
+    "Gradle.StreamBenchmarkTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lauger/Desktop/ucse-prog2-2023-U2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -109,6 +141,7 @@
       <workItem from="1717019160072" duration="776000" />
       <workItem from="1717120133678" duration="5868000" />
       <workItem from="1717137105935" duration="199000" />
+      <workItem from="1717198219052" duration="2715000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,8 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Ejercicio3 {
-    public static void main(String[] args) throws Exception {
+
+    public void runFinalizar4Tareas() throws Exception {
         // Crear 4 CompletableFuture
         CompletableFuture<Integer> future1 = createRandomDelayFuture();
         CompletableFuture<Integer> future2 = createRandomDelayFuture();
@@ -28,10 +29,7 @@ public class Ejercicio3 {
         allFutures.join();
     }
 
-
-    //supplyAsync() es un método que ejecuta una tarea de manera asíncrona y devuelve un resultado
-    //runAsync() es un método que ejecuta una tarea de manera asíncrona y no devuelve un resultado
-    private static CompletableFuture<Integer> createRandomDelayFuture() {
+    private CompletableFuture<Integer> createRandomDelayFuture() {
         return CompletableFuture.supplyAsync(() -> {
             try {
                 int delay = ThreadLocalRandom.current().nextInt(100, 501);
