@@ -1,29 +1,35 @@
-package org.example;
+package Ejercicios;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Ejercicio4 {
-    public void runFinalizarPrimeraTarea() throws Exception {
+public class Ejercicio3 {
+
+    public void runFinalizar4Tareas() throws Exception {
         // Crear 4 CompletableFuture
         CompletableFuture<Integer> future1 = createRandomDelayFuture();
         CompletableFuture<Integer> future2 = createRandomDelayFuture();
         CompletableFuture<Integer> future3 = createRandomDelayFuture();
         CompletableFuture<Integer> future4 = createRandomDelayFuture();
 
-        // Esperar a que cualquier tarea se complete
-        CompletableFuture<Object> anyFuture = CompletableFuture.anyOf(future1, future2, future3, future4);
+        // Esperar a que todas las tareas se completen
+        CompletableFuture<Void> allFutures = CompletableFuture.allOf(future1, future2, future3, future4);
 
-        // Cuando cualquier tarea se complete, imprimir el resultado
-        anyFuture.thenAccept(v -> {
-                System.out.println("El valor del primer futuro completado es: " + v);
+        // Cuando todas las tareas se completen, sumar los resultados e imprimir
+        allFutures.thenAccept(v -> {
+            try {
+                int sum = future1.get() + future2.get() + future3.get() + future4.get();
+                System.out.println("La suma de los valores es: " + sum);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         });
 
         // Esperar a que se complete la tarea final
-        anyFuture.join();
+        allFutures.join();
     }
 
-    private static CompletableFuture<Integer> createRandomDelayFuture() {
+    private CompletableFuture<Integer> createRandomDelayFuture() {
         return CompletableFuture.supplyAsync(() -> {
             try {
                 int delay = ThreadLocalRandom.current().nextInt(100, 501);

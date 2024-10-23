@@ -1,42 +1,55 @@
 package org.example;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.openjdk.jmh.annotations.*;
+import org.openjdk.jmh.infra.Blackhole;
+import org.openjdk.jmh.runner.Runner;
+import org.openjdk.jmh.runner.RunnerException;
+import org.openjdk.jmh.runner.options.Options;
+import org.openjdk.jmh.runner.options.OptionsBuilder;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
-import static org.junit.jupiter.api.Assertions.*;
+@State(Scope.Benchmark)
+@BenchmarkMode(Mode.AverageTime)
+@OutputTimeUnit(TimeUnit.MILLISECONDS)
+public class StreamBenchmarkTest {
 
-class StreamBenchmarkTest {
-    private StreamBenchmark benchmark;
+    List<Integer> listaNumeros = new ArrayList<>();
 
-    @BeforeEach
-    void setUp() {
-        benchmark = new StreamBenchmark();
-        benchmark.setup();
-    }
-
-    @Test
-    void benchmarkStream() {
-        List<Integer> result = benchmark.benchmarkStream();
-
-        assertNotNull(result, "La lista no debería ser nula");
-        assertFalse(result.isEmpty(), "La lista no debería estar vacía");
-
-        for (Integer num : result) {
-            assertTrue(num % 2 == 0, "Todos los números deben ser pares");
+    @Setup(Level.Trial)
+    public void setup() {
+        int size = 10000000;
+        Random random = new Random();
+        for (int i = 0; i < size; i++) {
+            listaNumeros.add(random.nextInt(1, 50000));
         }
     }
 
-    @Test
-    void benchmarkParallelStream() {
-        List<Integer> result = benchmark.benchmarkParallelStream();
+    @Benchmark
+    public void resultSecuencial(Blackhole bh) {
+        bh.consume(listaNumeros.stream()
+                .filter(n -> n % 2 == 0)
+                .collect(Collectors.toList()));
+    }
 
-        assertNotNull(result, "La lista no debería ser nula");
-        assertFalse(result.isEmpty(), "La lista no debería estar vacía");
+    @Benchmark
+    public void resultParalelo(Blackhole bh){
+        bh.consume(listaNumeros.parallelStream()
+                .filter(n -> n % 2 == 0)
+                .collect(Collectors.toList()));
+    }
 
-        for (Integer num : result) {
-            assertTrue(num % 2 == 0, "Todos los números deben ser pares");
-        }
+    public static void main(String[] args) throws RunnerException {
+        Options opt = new OptionsBuilder()
+                .include(StreamBenchmarkTest.class.getSimpleName())
+                .warmupIterations(5)
+                .measurementIterations(10)
+                .forks(1)
+                .build();
+        new Runner(opt).run();
     }
 }

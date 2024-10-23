@@ -1,30 +1,42 @@
 package org.example;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculadorCombustibleTest {
 
-    @Test
-    void testGetInstance_notNull() {
-        CalculadorCombustible instance = CalculadorCombustible.getInstance();
-        assertNotNull(instance, "La instancia no debería ser nula");
+    private CalculadorCombustible calculador;
+    @BeforeEach
+    public void setup(){
+        calculador = CalculadorCombustible.getInstance();
     }
 
     @Test
-    public void testGetInstance_singleton() {
-        CalculadorCombustible instance1 = CalculadorCombustible.getInstance();
+    public void testCalcularConsumoAvionComercialRetorna5000() {
+        Avion avion = new AvionComercial(100, 10);
+        int consumo = calculador.calcularCombustible(avion, 500);
+        assertEquals(5000, consumo);
+    }
+
+    @Test
+    public void testCalcularConsumoAvionPrivadoRetorna2600() {
+        Avion avion = new AvionPrivado(100, 10);
+        int consumo = calculador.calcularCombustible(avion, 255);
+        assertEquals(2600, consumo);
+    }
+
+    @Test
+    public void testGetInstanceRetornaMismaInstancia() {
         CalculadorCombustible instance2 = CalculadorCombustible.getInstance();
-        assertSame(instance1, instance2, "Las instancias deben ser las mismas");
+        assertEquals(calculador, instance2);
     }
 
     @Test
     void calcularCombustible() {
         Avion avionMock = Mockito.mock(Avion.class);
         Mockito.when(avionMock.volar(Mockito.anyInt())).thenReturn(100);
-
-        CalculadorCombustible calculador = CalculadorCombustible.getInstance();
 
         int resultado = calculador.calcularCombustible(avionMock, 50);
 

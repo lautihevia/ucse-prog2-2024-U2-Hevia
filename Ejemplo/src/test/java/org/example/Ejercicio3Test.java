@@ -1,5 +1,6 @@
 package org.example;
 
+import Ejercicios.Ejercicio3;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import java.io.ByteArrayOutputStream;

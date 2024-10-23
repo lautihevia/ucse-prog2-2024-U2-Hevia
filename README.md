@@ -1,10 +1,12 @@
+# Jacoco - Reporte de cobertura
+
 # Benchmark
 
 La salida muestra los resultados de dos benchmarks: `benchmarkParallelStream` y `benchmarkStream`. Para cada benchmark,
 JMH ejecuta varias iteraciones e informa el tiempo promedio tomado por operación (en milisegundos), junto con una
 estimación de error.
-La operación `benchmarkParallelStream` tomó un promedio de 97.985 ms/op, mientras que la operación `benchmarkStream`
-tomó un promedio de 225.935 ms/op. Como podemos ver, la operación de stream paralelo es más rápida que la operación de
+La operación `benchmarkParallelStream` tomó un promedio de 85,319 ms/op, mientras que la operación `benchmarkStream`
+tomó un promedio de 206,469 ms/op. Como podemos ver, la operación de stream paralelo es más rápida que la operación de
 stream secuencial.
 
 - El "avgt" en la columna de modo significa "tiempo promedio", es decir que hace referencia a que el benchmark mide el
@@ -49,7 +51,7 @@ que `benchmarkStream`. Por lo que `parallelStream` puede ser la mejor opción.
   framework que utilicen (.idea, .vscode, etc). De lo contrario se pueden pushear archivos indeseados, como la carpeta
   build, "hs_err_pid5148.log" y otros.
 - La estructura de las carpetas podría separarse entre cada ejercicio de una manera más granular. Pordían separar entre
-  ClasesATestear, Ejercicio3, Ejercicio4, PrebaBenchmark y colocar cada archivo en cada package correspondiente.
+  ClasesATestear, Ejercicios, Ejercicio4, PrebaBenchmark y colocar cada archivo en cada package correspondiente.
 - En ésta misma linea, si hacen el refactor sugerido en el punto anterior, los tests siempre deberían de ir en el mismo
   package y tener la misma estructura de carpetas que en main, por lo tanto en vez de ir en test/java deberían de ir
   dentro de test/java/org/example/TestClasesATestear
