@@ -1,5 +1,5 @@
 # Jacoco - Reporte de cobertura
-![jacoco](https://github.com/user-attachments/assets/4238b287-a9f6-4d01-a0b0-2215ac8728b3)
+![reporte jacoco](https://github.com/user-attachments/assets/e3c73dc2-c837-4475-a4a9-f3d7afb4db90)
 # Benchmark
 ![benchmark](https://github.com/user-attachments/assets/f75c9fe7-6a76-4f17-84c0-1fa252b65352)
 La salida muestra los resultados de dos benchmarks: `benchmarkParallelStream` y `benchmarkStream`. Para cada benchmark,
