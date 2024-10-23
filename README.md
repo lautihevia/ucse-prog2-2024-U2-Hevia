@@ -1,7 +1,7 @@
 # Jacoco - Reporte de cobertura
-
+![jacoco](https://github.com/user-attachments/assets/4238b287-a9f6-4d01-a0b0-2215ac8728b3)
 # Benchmark
-
+![benchmark](https://github.com/user-attachments/assets/f75c9fe7-6a76-4f17-84c0-1fa252b65352)
 La salida muestra los resultados de dos benchmarks: `benchmarkParallelStream` y `benchmarkStream`. Para cada benchmark,
 JMH ejecuta varias iteraciones e informa el tiempo promedio tomado por operación (en milisegundos), junto con una
 estimación de error.
